@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@color/bg_color2_black"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/info"
+        style="@style/horizontal_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预售证号"
+        android:textIsSelectable="true"
+        android:textColor="#196911"
+        android:textSize="10sp" />
+
+
+</LinearLayout>
